@@ -9,3 +9,8 @@ element of the array is 3 which meens 2 chunks together is worth 6 etc. The 4th 
 build the algorithm whereby chunks of 4 cant be prices, it must be blocks of 1, 2, 3 or 5. So for example, a rod of size 14 would be 
 cut into 2x 5's and 1x 1 and 1x 3 which would give a price of 29 if the prices were {1.2, 3, 5.8, 0, 11} because two chunks of 5 is 22 and 1
 chunk is worth 1.2 and 3 chunks is worth 5.8.
+
+
+N bishops algorithm
+
+This algorithm takes an int of size board N and then calculates and prints every configuration of a chess board where as many bishops as possible can be placed on the board without killing each other.
